@@ -57,10 +57,5 @@ public class Vector{
 
     public void imprimeVector(){
         System.out.println("("+this.i+" , "+this.j+" , "+this.k+")");
-    }
-    public static void main(String[] args) {
-        Vector a=new Vector(1,2,3);
-        Vector b=new Vector(3,4,5);
-        a.imprimeVector();
     }  
 }
