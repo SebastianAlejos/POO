@@ -17,6 +17,22 @@ public class EjemploArreglos{
 		return max;
 	}
 
+	public int minimo(int[] arreglo){
+		int min=arreglo[0];
+		for (int i=0;i<arreglo.length;i++){
+			if(arreglo[i]<min){
+				min=arreglo[i];
+			}
+		}
+		return min;
+	}
+
+	public double promedio(int [] arreglo){
+		int suma=this.suma(arreglo);
+		double promedio=suma/arreglo.length;
+		return promedio;
+	}
+
 	public void imprime(String[][] palabras){
 		for (int i=0;i<palabras.length;i++){
 			for(int j=0;j<palabras.length;j++){
@@ -27,14 +43,8 @@ public class EjemploArreglos{
 
 	public static void main(String[] args){
 		EjemploArreglos ea=new EjemploArreglos();
-		int [] valores={-4,-16,-8,-144,-2};
-		int valor= ea.suma(valores);
-		System.out.println(valor);
-		int maximo= ea.maximo(valores);
-		System.out.println(maximo);
-		for(int i=0;i<args.length;i++){
-			System.out.println("Args posición "+ i + ": "+ args[i]);
-		}
-		String[][] nombres={{}{}}
+		int [] valores={4,13,48,145,2};
+		String[][] palabras={{}};
+		ea.imprime(palabras);
 	}
 }

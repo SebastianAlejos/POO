@@ -1,3 +1,7 @@
+/*Sebastian Alejos Acosta
+A00344555
+Clase Vector
+1 de septiembre 2019*/
 public class Vector{
     private double i,
                    j, 
