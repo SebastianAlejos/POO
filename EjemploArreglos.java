@@ -40,11 +40,4 @@ public class EjemploArreglos{
 			}
 		}
 	}
-
-	public static void main(String[] args){
-		EjemploArreglos ea=new EjemploArreglos();
-		int [] valores={4,13,48,145,2};
-		String[][] palabras={{}};
-		ea.imprime(palabras);
-	}
 }
