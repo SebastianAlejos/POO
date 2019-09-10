@@ -28,5 +28,12 @@ public class Figura{
         System.out.println("El perimetro es "+b.perimetro());
         System.out.println("El area es "+b.area());
         System.out.println("El volumen es "+b.volumen());
+        System.out.println();
+
+        Cuadrado c=new Cuadrado();
+        System.out.println(c);
+        System.out.println("El perimetro es "+c.perimetro());
+        System.out.println("El area es "+c.area());
+        System.out.println("El volumen es "+c.volumen());
     }
 }

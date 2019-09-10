@@ -1,5 +1,5 @@
 public class Rectangulo extends Figura{
-    private double largo,   
+    protected double largo,   
                             ancho;
 
     public Rectangulo(double largo, double ancho){
