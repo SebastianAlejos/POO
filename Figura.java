@@ -30,7 +30,7 @@ public class Figura{
         System.out.println("El volumen es "+b.volumen());
         System.out.println();
 
-        Cuadrado c=new Cuadrado();
+        Cuadrado c=new Cuadrado(7.0);
         System.out.println(c);
         System.out.println("El perimetro es "+c.perimetro());
         System.out.println("El area es "+c.area());
