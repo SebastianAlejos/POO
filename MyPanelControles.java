@@ -176,6 +176,7 @@ public class MyPanelControles extends JPanel{
 						pw.close();
 					}catch(IOException ex) {
 						System.out.println("Error: "+ex);	
+						tfNombre.setText("Pocoyo");
 					}
 				
 				}	
